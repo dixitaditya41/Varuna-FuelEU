@@ -31,7 +31,7 @@ Minimal FuelEU Maritime module with Routes, Compare, Banking, and Pooling. Hexag
 - POST `/banking/apply` { shipId, year, amount }
 - GET `/banking/records?shipId=R001&year=2025`
 - POST `/pools` { year, shipIds }
-  ![PostMan Routes](public/Postman.config.png)
+  ![PostMan Routes](public/Postman.config.jpg)
 
 
 ### Testing
@@ -47,6 +47,7 @@ Frontend:
 - Compare Tab: shows baseline vs actual with compliance and chart.
 - Banking Tab: CB before, applied, after; bank/apply actions with records.
 - Pooling Tab: adjusted CB per ship, validation, and result members/CBs.
+
 
 
 
